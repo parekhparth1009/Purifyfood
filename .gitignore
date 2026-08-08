@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+.env*.local
+npm-debug.log*
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# Raw uploaded photo archives — already extracted as individual files under public/assets
+*.zip
+*.rar
+
+# Local IDE agent config (contains a local API key, not for version control)
+.continue/
