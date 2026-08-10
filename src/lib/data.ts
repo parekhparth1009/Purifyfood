@@ -239,7 +239,18 @@ export const CATEGORIES: Category[] = [
     tagline: "Whole & ground, sourced at origin",
     blurb: "Core Indian spices supplied whole or ground, with a wider range available against custom enquiry.",
     items: [],
-    flat: ["Cumin", "Coriander", "Fenugreek", "Cloves", "Cardamom", "Chilli", "Turmeric", "Other whole & ground spices — on request"],
+    flat: [
+      "Cumin",
+      "Coriander",
+      "Fenugreek",
+      "Cloves",
+      "Cardamom",
+      "Chilli",
+      "Turmeric",
+      "Amchur",
+      "Cinnamon",
+      "Other whole & ground spices — on request",
+    ],
   },
 ];
 

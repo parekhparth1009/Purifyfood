@@ -22,7 +22,7 @@ function getVariantImage(categorySlug: string, variantName: string): string {
   const v = variantName.toLowerCase();
   if (categorySlug === "white-onion") {
     if (v.includes("kibbled")) return "/assets/products/real/white-kibbled.jpg";
-    if (v.includes("chopped")) return "/assets/products/real/white-chopped.png";
+    if (v.includes("chopped")) return "/assets/products/real/white-chopped.jpg";
     if (v.includes("2–4") || v.includes("2-4")) return "/assets/products/real/white-minced.jpg";
     if (v.includes("1–3") || v.includes("1-3")) return "/assets/products/real/white-minced.jpg";
     if (v.includes("1–2") || v.includes("1-2")) return "/assets/products/real/white-granules.jpg";
@@ -37,7 +37,7 @@ function getVariantImage(categorySlug: string, variantName: string): string {
   if (categorySlug === "red-onion") {
     if (v.includes("kibbled")) return "/assets/products/real/red-kibbled.jpg";
     if (v.includes("chopped")) return "/assets/products/real/red-chopped.jpg";
-    if (v.includes("minced")) return "/assets/products/real/red-chopped.jpg";
+    if (v.includes("minced")) return "/assets/products/real/red-minced.jpg";
     if (v.includes("granules")) return "/assets/products/real/red-granules.jpg";
     if (v.includes("powder")) return "/assets/products/real/red-powder.jpg";
     return "/assets/products/real/red-kibbled.jpg";
@@ -86,18 +86,20 @@ function getVariantImage(categorySlug: string, variantName: string): string {
     if (v.includes("chilli")) return "/assets/products/real/veg-green-chilli.jpg";
     if (v.includes("ginger")) return "/assets/products/real/veg-ginger.jpg";
     if (v.includes("curry")) return "/assets/prod-vegetables.png";
-    if (v.includes("mint")) return "/assets/prod-vegetables.png";
+    if (v.includes("mint")) return "/assets/products/real/veg-mint.jpg";
     if (v.includes("coriander")) return "/assets/prod-vegetables.png";
     return "/assets/prod-vegetables.png";
   }
   if (categorySlug === "spices") {
-    if (v.includes("cumin")) return "/assets/prod-spices.png";
+    if (v.includes("cumin")) return "/assets/products/real/spice-cumin.jpg";
     if (v.includes("coriander")) return "/assets/products/real/spice-coriander.jpg";
     if (v.includes("fenugreek")) return "/assets/prod-spices.png";
     if (v.includes("cloves")) return "/assets/prod-spices.png";
     if (v.includes("cardamom")) return "/assets/prod-spices.png";
     if (v.includes("chilli")) return "/assets/products/real/spice-chilli.jpg";
     if (v.includes("turmeric")) return "/assets/products/real/spice-turmeric.jpg";
+    if (v.includes("amchur")) return "/assets/products/real/spice-amchur.jpg";
+    if (v.includes("cinnamon")) return "/assets/products/real/spice-cinnamon.jpg";
     return "/assets/prod-spices.png";
   }
   return "/assets/products/real/spices-hero.jpg";
