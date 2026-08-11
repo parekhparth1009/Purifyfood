@@ -14,10 +14,10 @@ export const CONTACT_INFO = {
   ],
   supportPhone: { display: "+91 95863 78004", value: "+919586378004" },
   emails: [
-    { display: "info@purifyfoods.com", value: "info@purifyfood.com" },
-    { display: "support@purifyfoods.com", value: "support@purifyfood.com" },
+    { display: "info@purifyfood.com", value: "info@purifyfood.com" },
+    { display: "support@purifyfood.com", value: "support@purifyfood.com" },
   ],
-  officeAddress: "3 Giriraj, Behind Gandhi Baug, Mahuva, Gujarat 364290",
+  officeAddress: "3 Giriraj Residency, Behind Gandhi Baug, Mahuva, Gujarat 364290",
   processHouseAddress: "Behind Hanumant High School, Mahuva, Gujarat 364290",
 } as const;
 
