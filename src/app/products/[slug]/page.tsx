@@ -14,7 +14,7 @@ const CATEGORY_HERO_IMAGES: Record<string, string> = {
   "toasted-onion": "/assets/products/real/toasted-powder.jpg",
   "fried-onion": "/assets/products/real/fried-fresh.jpg",
   garlic: "/assets/products/real/garlic-hero.jpg",
-  vegetables: "/assets/products/real/veg-tomato.jpg",
+  vegetables: "/assets/products/real/prod-vegetables.png",
   spices: "/assets/products/ALL SPICES/Spices.JPG",
 };
 
