@@ -14,7 +14,7 @@ const CATEGORY_HERO_IMAGES: Record<string, string> = {
   "toasted-onion": "/assets/products/real/toasted-powder.jpg",
   "fried-onion": "/assets/products/real/fried-fresh.jpg",
   garlic: "/assets/products/real/garlic-hero.jpg",
-  vegetables: "/assets/products/real/veg-tomato.jpg",
+  vegetables: "/assets/products/real/prod-vegetables.png",
   spices: "/assets/products/ALL SPICES/Spices.JPG",
 };
 
@@ -76,26 +76,25 @@ function getVariantImage(categorySlug: string, variantName: string): string {
     return "/assets/products/real/garlic-kibbled.jpg";
   }
   if (categorySlug === "vegetables") {
-    if (v.includes("potato flakes")) return "/assets/prod-vegetables.png";
-    if (v.includes("potato powder")) return "/assets/prod-vegetables.png";
-    if (v.includes("beetroot")) return "/assets/prod-vegetables.png";
-    if (v.includes("tomato")) return "/assets/products/real/veg-tomato.jpg";
-    if (v.includes("spinach")) return "/assets/prod-vegetables.png";
-    if (v.includes("carrot")) return "/assets/prod-vegetables.png";
-    if (v.includes("cabbage")) return "/assets/prod-vegetables.png";
+    if (v.includes("potato flakes")) return "/assets/products/real/potato flakes.png";
+    if (v.includes("potato powder")) return "/assets/products/real/potato powder.png";
+    if (v.includes("beetroot")) return "/assets/products/real/beet root powder.png";
+    if (v.includes("tomato flakes")) return "/assets/products/real/tomatoflakes.png";
+    if (v.includes("tomato")) return "/assets/products/real/tomato powder.png";
+    if (v.includes("spinach")) return "/assets/products/real/spinach powder.png";
+    if (v.includes("carrot")) return "/assets/products/real/carrot powder.png";
+    if (v.includes("cabbage")) return "/assets/products/real/cabbage powder.png";
     if (v.includes("chilli")) return "/assets/products/real/veg-green-chilli.jpg";
     if (v.includes("ginger")) return "/assets/products/real/veg-ginger.jpg";
-    if (v.includes("curry")) return "/assets/prod-vegetables.png";
+    if (v.includes("curry")) return "/assets/products/real/curry leaf powder.png";
     if (v.includes("mint")) return "/assets/products/real/veg-mint.jpg";
-    if (v.includes("coriander")) return "/assets/prod-vegetables.png";
+    if (v.includes("coriander")) return "/assets/products/real/coriander leaf powder.png";
     return "/assets/prod-vegetables.png";
   }
   if (categorySlug === "spices") {
     if (v.includes("cumin")) return "/assets/products/real/spice-cumin.jpg";
     if (v.includes("coriander")) return "/assets/products/real/spice-coriander.jpg";
-    if (v.includes("fenugreek")) return "/assets/prod-spices.png";
-    if (v.includes("cloves")) return "/assets/prod-spices.png";
-    if (v.includes("cardamom")) return "/assets/prod-spices.png";
+    if (v.includes("cardamom")) return "/assets/products/real/cardamom powder.png";
     if (v.includes("chilli")) return "/assets/products/real/spice-chilli.jpg";
     if (v.includes("turmeric")) return "/assets/products/real/spice-turmeric.jpg";
     if (v.includes("amchur")) return "/assets/products/real/spice-amchur.jpg";

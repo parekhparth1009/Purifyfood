@@ -17,7 +17,7 @@ export const CONTACT_INFO = {
     { display: "info@purifyfood.com", value: "info@purifyfood.com" },
     { display: "support@purifyfood.com", value: "support@purifyfood.com" },
   ],
-  officeAddress: "3 Giriraj Residency, Behind Gandhi Baug, Mahuva, Gujarat 364290",
+  officeAddress: "3 Giriraj Residency near morari bapu house Behind Gandhi Baug, Mahuva, Gujarat 364290",
   processHouseAddress: "Behind Hanumant High School, Mahuva, Gujarat 364290",
 } as const;
 
@@ -208,7 +208,7 @@ export const CATEGORIES: Category[] = [
     items: [
       {
         name: "Garlic",
-        variants: ["Kibbled / Flakes", "Chopped (3–5 mm)", "Minced (1–3 mm)", "Granules (0.2–1 mm)", "Powder"],
+        variants: ["Flakes", "Chopped (3–5 mm)", "Minced (1–3 mm)", "Granules (0.2–1 mm)", "Powder"],
       },
     ],
   },
@@ -240,10 +240,8 @@ export const CATEGORIES: Category[] = [
     blurb: "Core Indian spices supplied whole or ground, with a wider range available against custom enquiry.",
     items: [],
     flat: [
-      "Cumin Powder",
-      "Coriander Powder",
-      "Fenugreek Powder",
-      "Cloves Powder",
+      "Cumin Whole / Powder",
+      "Coriander Whole / Powder",
       "Cardamom Powder",
       "Chilli Powder",
       "Turmeric Powder",
