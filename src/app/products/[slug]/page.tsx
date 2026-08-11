@@ -14,7 +14,7 @@ const CATEGORY_HERO_IMAGES: Record<string, string> = {
   "toasted-onion": "/assets/products/real/toasted-powder.jpg",
   "fried-onion": "/assets/products/real/fried-fresh.jpg",
   garlic: "/assets/products/real/garlic-hero.jpg",
-  vegetables: "/assets/products/real/prod-vegetables.png",
+  vegetables: "/assets/products/real/vegetables-hero.png",
   spices: "/assets/products/ALL SPICES/Spices.JPG",
 };
 
@@ -89,7 +89,7 @@ function getVariantImage(categorySlug: string, variantName: string): string {
     if (v.includes("curry")) return "/assets/products/real/curry leaf powder.png";
     if (v.includes("mint")) return "/assets/products/real/veg-mint.jpg";
     if (v.includes("coriander")) return "/assets/products/real/coriander leaf powder.png";
-    return "/assets/prod-vegetables.png";
+    return "/assets/products/real/vegetables-hero.png";
   }
   if (categorySlug === "spices") {
     if (v.includes("cumin")) return "/assets/products/real/spice-cumin.jpg";
