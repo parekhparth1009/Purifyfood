@@ -122,7 +122,7 @@ export const CATEGORIES: Category[] = [
       "The widest cut range in our onion line — eleven sizes from coarse kibbled flakes down to ultra-fine 100–120 mesh powder.",
     items: [
       {
-        name: "Dehydrated White Onion",
+        name: "White Onion",
         variants: [
           "Kibbled / Flakes",
           "Chopped (3–5 mm)",
@@ -146,7 +146,7 @@ export const CATEGORIES: Category[] = [
     blurb: "Consistent colour and pungency across five cuts, from kibbled flakes to fine powder.",
     items: [
       {
-        name: "Dehydrated Red Onion",
+        name: "Red Onion",
         variants: ["Kibbled / Flakes", "Chopped (3–5 mm)", "Minced (1–3 mm)", "Granules (0.2–1 mm)", "Powder"],
       },
     ],
@@ -158,7 +158,7 @@ export const CATEGORIES: Category[] = [
     blurb: "A milder colour and flavour profile than red onion, available across the same five cuts.",
     items: [
       {
-        name: "Dehydrated Pink Onion",
+        name: "Pink Onion",
         variants: ["Kibbled / Flakes", "Chopped (3–5 mm)", "Minced (1–3 mm)", "Granules (0.2–1 mm)", "Powder"],
       },
     ],
@@ -207,14 +207,14 @@ export const CATEGORIES: Category[] = [
     blurb: "One consistent product line, graded across five cuts to match sauces, seasoning blends or snack coatings.",
     items: [
       {
-        name: "Dehydrated Garlic",
+        name: "Garlic",
         variants: ["Kibbled / Flakes", "Chopped (3–5 mm)", "Minced (1–3 mm)", "Granules (0.2–1 mm)", "Powder"],
       },
     ],
   },
   {
     slug: "vegetables",
-    name: "Dehydrated Vegetables",
+    name: "Vegetables",
     tagline: "Eleven core vegetable powders & flakes",
     blurb: "Single-form vegetable ingredients for soups, snacks, seasoning blends and instant food manufacturing.",
     items: [],

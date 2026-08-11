@@ -161,7 +161,7 @@ export default function ProductCategoryPage({ params }: { params: { slug: string
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {allVariants.map((item, i) => {
                 const imgSrc = getVariantImage(category.slug, item.variantName);
-                const fullTitle = `${item.parentName} ${item.variantName}`;
+                const fullTitle = category.items.length > 0 ? `${item.parentName} ${item.variantName}` : item.variantName;
                 return (
                   <Reveal key={item.variantName} delay={i * 0.05}>
                     <div className="group block h-full rounded-2xl bg-paper border border-rule p-5 shadow-sm transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
