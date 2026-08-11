@@ -95,6 +95,8 @@ function getVariantImage(categorySlug: string, variantName: string): string {
     if (v.includes("cumin")) return "/assets/products/real/spice-cumin.jpg";
     if (v.includes("coriander")) return "/assets/products/real/spice-coriander.jpg";
     if (v.includes("cardamom")) return "/assets/products/real/cardamom powder.png";
+    if (v.includes("fenugreek")) return "/assets/products/real/fenugreek powder.png";
+    if (v.includes("cloves")) return "/assets/products/real/colves powder.png";
     if (v.includes("chilli")) return "/assets/products/real/spice-chilli.jpg";
     if (v.includes("turmeric")) return "/assets/products/real/spice-turmeric.jpg";
     if (v.includes("amchur")) return "/assets/products/real/spice-amchur.jpg";

@@ -14,7 +14,7 @@ const categoryImages: Record<string, string> = {
   "toasted-onion": "/assets/products/real/toasted-powder.jpg",
   "fried-onion": "/assets/products/real/fried-fresh.jpg",
   garlic: "/assets/products/real/garlic-hero.jpg",
-  vegetables: "/assets/products/real/veg-tomato.jpg",
+  vegetables: "/assets/products/real/vegetables-hero.png",
   spices: "/assets/products/real/spices-hero.jpg",
 };
 
