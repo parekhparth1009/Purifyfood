@@ -48,7 +48,7 @@ export default function Footer() {
               <p className="mt-0.5">{CONTACT_INFO.officeAddress}</p>
             </div>
             <div>
-              <strong className="text-white font-medium block text-[12px] uppercase tracking-wider text-accent">Process House</strong>
+              <strong className="text-white font-medium block text-[12px] uppercase tracking-wider text-accent">Factory Address</strong>
               <p className="mt-0.5">{CONTACT_INFO.processHouseAddress}</p>
             </div>
             <div className="pt-1 flex flex-wrap gap-x-6 gap-y-2">

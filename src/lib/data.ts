@@ -17,8 +17,8 @@ export const CONTACT_INFO = {
     { display: "info@purifyfood.com", value: "info@purifyfood.com" },
     { display: "support@purifyfood.com", value: "support@purifyfood.com" },
   ],
-  officeAddress: "3 Giriraj Residency near morari bapu house Behind Gandhi Baug, Mahuva, Gujarat 364290",
-  processHouseAddress: "Behind Hanumant High School, Mahuva, Gujarat 364290",
+  officeAddress: "3 Giriraj Residency B/H Morari Bapu House, Gandhi Baug Road, Mahuva, Gujarat 364290",
+  processHouseAddress: "Behind Hanumant High School, Mahuva-Bhavnagar Bypass Road, Mahuva, Gujarat 364290",
 } as const;
 
 export const STATS: { value: number; suffix: string; label: string }[] = [
@@ -96,6 +96,7 @@ export const CERTIFICATIONS = [
   { code: "ISO", name: "ISO Certified", detail: "ISO-certified quality and food safety management systems (ISO 22000 & 9001).", image: "/assets/cert-iso.png" },
   { code: "IEC", name: "IEC Code", detail: "Import Export Code (IEC) — authorised by Directorate General of Foreign Trade for international trade.", image: "/assets/cert-iec.png" },
   { code: "HALAL", name: "Halal Certified", detail: "Jamiat Ulama-I-Hind Halal Trust certified processing for global Halal-compliant supply chains.", image: "/assets/cert-halal.png" },
+  { code: "KOSHER", name: "Kosher Certified", detail: "Kosher certification for global Kosher-compliant supply chains.", image: "/assets/cert-kosher.png" },
 
 ] as const;
 

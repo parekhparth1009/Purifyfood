@@ -51,20 +51,20 @@ function getVariantImage(categorySlug: string, variantName: string): string {
     return "/assets/products/real/pink-kibbled.jpg";
   }
   if (categorySlug === "toasted-onion") {
-    if (v.includes("kibbled")) return "/assets/products/real/toasted-powder.jpg";
-    if (v.includes("chopped")) return "/assets/products/real/toasted-powder.jpg";
-    if (v.includes("minced")) return "/assets/products/real/toasted-powder.jpg";
-    if (v.includes("granules")) return "/assets/products/real/toasted-powder.jpg";
-    if (v.includes("light")) return "/assets/products/real/toasted-powder.jpg";
-    if (v.includes("dark")) return "/assets/products/real/toasted-powder.jpg";
-    return "/assets/products/real/toasted-powder.jpg";
+    if (v.includes("kibbled")) return "/assets/products/real/toasted onion flakes.jpeg";
+    if (v.includes("chopped")) return "/assets/products/real/toasted onion chopped.jpeg";
+    if (v.includes("minced")) return "/assets/products/real/toasted onion minced.jpeg";
+    if (v.includes("granules")) return "/assets/products/real/toasted onion granul.jpeg";
+    if (v.includes("light")) return "/assets/products/real/toasted onion powder light.jpeg";
+    if (v.includes("dark")) return "/assets/products/real/toasted onion powder dark.jpeg";
+    return "/assets/products/real/toasted onion flakes.jpeg";
   }
   if (categorySlug === "fried-onion") {
-    if (v.includes("fresh")) return "/assets/products/real/fried-fresh.jpg";
-    if (v.includes("coated")) return "/assets/products/real/fried-coated.jpg";
-    if (v.includes("gluten")) return "/assets/products/real/fried-glutenfree.jpg";
-    if (v.includes("palm")) return "/assets/products/real/fried-palm.jpg";
-    if (v.includes("sunflower")) return "/assets/products/real/fried-palm.jpg";
+    if (v.includes("fresh")) return "/assets/products/real/fried onion.jpeg";
+    if (v.includes("coated")) return "/assets/products/real/fried onion coated.jpeg";
+    if (v.includes("gluten")) return "/assets/products/real/fried onion gluten free.jpeg";
+    if (v.includes("palm")) return "/assets/products/real/fried onion.jpeg";
+    if (v.includes("sunflower")) return "/assets/products/real/fried onion.jpeg";
     return "/assets/products/real/fried-fresh.jpg";
   }
   if (categorySlug === "garlic") {
