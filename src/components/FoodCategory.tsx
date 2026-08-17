@@ -8,13 +8,13 @@ import { CATEGORIES } from "@/lib/data";
 import Reveal from "./Reveal";
 
 const categoryImages: Record<string, string> = {
-  "white-onion": "/assets/products/real/white-hero.jpg",
-  "red-onion": "/assets/products/real/red-hero.jpg",
+  "white-onion": "/assets/products/real/white-chopped.jpg",
+  "red-onion": "/assets/products/real/red-chopped.jpg",
   "pink-onion": "/assets/products/real/pink-kibbled.jpg",
-  "toasted-onion": "/assets/products/real/toasted-powder.jpg",
-  "fried-onion": "/assets/products/real/fried-fresh.jpg",
-  garlic: "/assets/products/real/garlic-hero.jpg",
-  vegetables: "/assets/products/real/vegetables-hero.png",
+  "toasted-onion": "/assets/products/real/toasted onion.jpeg",
+  "fried-onion": "/assets/products/real/fried onion.jpeg",
+  garlic: "/assets/products/real/dehydrated-garlic.jpeg",
+  vegetables: "/assets/products/real/vegetable.jpeg",
   spices: "/assets/products/real/spices-hero.jpg",
 };
 
